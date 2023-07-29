@@ -3,7 +3,7 @@
 body {
     background-image: url("imgs/bg11.jpg");
     background-attachment: fixed;
-    position: relative;
+    /* position: relative; */
     background-position: scroll;
     background-size: cover;
     font-family: 'poppins', sans-serif;
@@ -16,12 +16,17 @@ h1 {
 }
 
 #h11 {
-    font-size: 5em;
+    font-size: 4em;
 }
 
 h2 {
     font-size: 2.5em;
     color: white;
+}
+h3 {
+    font-size: 3em;
+    color: white;
+    font-weight: 400;
 }
 
 a {
@@ -39,4 +44,27 @@ h1:hover {
     border: 2px rgb(0, 0, 0);
     color: blueviolet;
     font-size: 1em;
+}
+
+table {
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-top: 50px;
+    width: 50%;
+}
+
+td{
+    color: white;
+    /* padding: 5px 20px 5px 20px; */
+    /* margin: 80px; */
+    font-size: 3em;    
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+th{
+    color: white;
+    padding: 10px 20px 50px 20px;
+    font-size: 3.5em;
+    text-align: center;
 }
