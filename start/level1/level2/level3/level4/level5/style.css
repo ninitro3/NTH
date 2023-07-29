@@ -4,7 +4,7 @@ body {
     background-image: url("imgs/bg11.jpg");
     background-attachment: fixed;
     position: relative;
-    /* background-position: scroll; */
+    background-position: scroll;
     background-size: cover;
     font-family: 'poppins', sans-serif;
 }
