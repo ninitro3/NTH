@@ -1,20 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
-body{
-    background-image:url("imgs/bg11.jpg");
-    background-attachment:fixed;
+body {
+    background-image: url("imgs/bg11.jpg");
+    background-attachment: fixed;
+    position: relative;
+    /* background-position: scroll; */
     background-size: cover;
-    font-family: 'poppins',sans-serif;
+    font-family: 'poppins', sans-serif;
 }
-h1{
+
+h1 {
     font-size: 3em;
-    color: white;
+    color: rgb(32, 42, 84);
+    background-color: rgba(240, 248, 255, 0.85);
 }
-h2{
+
+#h11 {
+    font-size: 5em;
+}
+
+h2 {
     font-size: 2.5em;
     color: white;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
     font-size: 2.5em;
@@ -24,7 +34,9 @@ a{
     margin-inline: 20px;
     /* margin-top: 300px; */
 }
-a :hover{
-    border: 2px rgb(0, 200, 255);
+
+h1:hover {
+    border: 2px rgb(0, 0, 0);
     color: blueviolet;
+    font-size: 1em;
 }
